@@ -1,7 +1,6 @@
 package com.test;
 
 public class ReverseStringWord {
-
 	public static String reverseStringWords(String str) {
 		String words[] = str.split(" ");
 		String reverseWord = "";
@@ -12,7 +11,6 @@ public class ReverseStringWord {
 		}
 		return reverseWord;
 	}
-	
 	public static void main(String[] args) {
 		
 		String str = "This is Great India";
